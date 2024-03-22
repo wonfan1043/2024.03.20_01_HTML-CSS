@@ -1,0 +1,46 @@
+*{
+    /* 這個屬性就是額外設定border，會根據下方border的大小去變化物件大小，使其總數字是我們要的數字 */
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+img{
+    height: 200px;
+    border: 3px solid red;
+}
+.leftImg{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.rightImg{
+    width: 300px;
+    margin-left: 0px;
+}
+
+div{
+    border: 3px solid red;
+    width: 524px;
+    height: 100px;
+    /* margin數字順序：上下-左右 */
+    margin: 36px 0px;
+    background-color:deeppink;
+}
+
+input{
+    width: 386px;
+    height: 26px;
+    margin-right: 24px;
+    background-color:deeppink;
+    border: 3px solid red;
+}
+
+button{
+    width: 110px;
+    height: 26px;
+    background-color:deeppink;
+    border: 3px solid red;
+    font-style:oblique;
+}
